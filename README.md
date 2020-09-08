@@ -9,6 +9,8 @@ A Grocery Shop Android App is a nice clean Online Grocery Store app UI by using 
 
 Needs a lot of improvement in terms of UI/UX, adding more features as per trend when taken to production.
 
+<img src="/app/src/main/res/drawable/GroceryShopApp8.PNG">
+
 # FAQ
 How to run the project?
 Install Android Studio then open the project by import Project in Android Studio.
