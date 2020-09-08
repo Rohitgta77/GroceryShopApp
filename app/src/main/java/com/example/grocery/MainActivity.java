@@ -3,19 +3,16 @@ package com.example.grocery;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
-
 import com.example.grocery.adapter.CategoryAdapter;
 import com.example.grocery.adapter.DiscountedProductAdapter;
 import com.example.grocery.adapter.RecentlyViewedAdapter;
 import com.example.grocery.model.Category;
 import com.example.grocery.model.DiscountedProducts;
 import com.example.grocery.model.RecentlyViewed;
-
 import java.util.ArrayList;
 import java.util.List;
 
