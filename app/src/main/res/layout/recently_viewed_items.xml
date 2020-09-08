@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recently_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="150dp"
+        android:layout_height="220dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/card2" />
+
+    <TextView
+        android:id="@+id/lblUnit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Unit"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/lblQty"
+        app:layout_constraintStart_toEndOf="@+id/lblQty"
+        app:layout_constraintTop_toTopOf="@+id/lblQty" />
+
+    <TextView
+        android:id="@+id/lblProducrName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/open_sans"
+        android:text="Product Name"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/lblPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/open_sans"
+        android:text="Price"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/lblDescr" />
+
+    <TextView
+        android:id="@+id/lblDescr"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Description"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/lblProducrName" />
+
+    <TextView
+        android:id="@+id/lblQty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Qty"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/lblPrice" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:srcCompat="@drawable/ic_cart" />
+</androidx.constraintlayout.widget.ConstraintLayout>
